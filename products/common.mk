@@ -68,3 +68,11 @@ PRODUCT_COPY_FILES += \
     vendor/mnml/prebuilt/common/addon.d/50-mnml.sh:system/addon.d/50-mnml.sh \
     vendor/mnml/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
     vendor/mnml/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions
+
+# DU Utils Library
+PRODUCT_BOOT_JARS += \
+    org.dirtyunicorns.utils
+
+# DU Utils Library
+PRODUCT_PACKAGES += \
+    org.dirtyunicorns.utils
