@@ -1,0 +1,12 @@
+#!/system/bin/sh
+log -p i -t start "******************************");
+log -p i -t start "                            _ ");
+log -p i -t start "                           | |");
+log -p i -t start "  _ __ ___  _ __  _ __ ___ | |");
+log -p i -t start " | '_ ` _ \| '_ \| '_ ` _ \| |");
+log -p i -t start " | | | | | | | | | | | | | | |");
+log -p i -t start " |_| |_| |_|_| |_|_| |_| |_|_|");
+log -p i -t start "                              ");
+log -p i -t start "******************************");
+log -p i -t start "*****Embracing minimalism*****");
+log -p i -t start "******************************");
