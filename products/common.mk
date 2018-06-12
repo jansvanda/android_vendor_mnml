@@ -30,6 +30,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.mnml.version=$(PLATFORM_VERSION)-$(BUILD_ID)
 
+# Mnml Version
+PRODUCT_VERSION = 8.1.0
+ifneq ($(HAVOC_BUILDTYPE),)
+MNML_VERSION := MnmlOS-$(shell date +%Y%m%d)-$(MNML_BUILD)-$(MNML_BUILDTYPE)
+else
+MNML_VERSION := MnmlOS-$(shell date +%Y%m%d)-$(MNML_BUILD)
+endif
+
 # Disable HDCP check
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.wfd.nohdcp=1
